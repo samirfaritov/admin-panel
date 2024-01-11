@@ -513,21 +513,42 @@ body {
   display: none;
 }
 
-.conteiner .main .products .input {
+.conteiner .main .products form {
   width: 400px;
   height: 100%;
   border: 1px solid transparent;
   flex-wrap: wrap;
   position: absolute;
-  left: 342px;
-  top: 220px;
+  left: 20px;
+  top: 50px;
 }
 
-.conteiner .main .products .input input {
+.box {
+  width: 100%;
+  height: 2px;
+  background-color: #cccc;
+}
+
+.conteiner .main .products form input {
   width: 400px;
   height: 50px;
-  font-size: 30px;
+  font-size: 25px;
   border: 1px solid blue;
+  background-color: #efefef;
+  border-radius: 10px;
+  color: #272727;
+}
+
+.conteiner .main .products form button {
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #1795ce;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  
 }
 
 .conteiner .main .order {
